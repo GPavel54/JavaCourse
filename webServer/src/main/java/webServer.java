@@ -47,8 +47,6 @@ public class webServer
           fin.close();
           response += page.length() + "\nConnection: close\n\n" + page;
         }
-        System.out.println("From browser :\n" + input);
-        System.out.println("To browser" + response);
         outt.println(response);
       }
     }
